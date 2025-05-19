@@ -1,1 +1,12 @@
-requirements.txt
+## requirements.txt ##
+streamlit
+opencv-python
+numpy
+imageio
+scikit-image
+face-alignment
+ffmpeg-python
+openai
+requests
+Pillow
+DALL-E
