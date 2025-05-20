@@ -1,1 +1,18 @@
-meta.json
+{
+  "templates": [
+    {
+      "id": "moonveil_bride",
+      "filename": "fantasy/moonveil_bride.jpg",
+      "name": "Moonveil Bride",
+      "categories": ["bridal", "fantasy", "regal"],
+      "tags": ["veil", "soft glow", "ceremony"]
+    },
+    {
+      "id": "hula_dancer",
+      "filename": "generated/hula_dancer.png",
+      "name": "Hula Dancer",
+      "categories": ["vacation", "dance", "outdoors"],
+      "tags": ["flower crown", "warm tones", "island"]
+    }
+  ]
+}
