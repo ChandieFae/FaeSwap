@@ -1,1 +1,8 @@
- # Optional visual FX overlays
+from PIL import Image
+
+def apply_overlay(base_image_path, overlay_path, output_path="composited.png"):
+    base = Image.open(base_image_path).convert("RGBA")
+    overlay = Image.open(overlay_path).convert("RGBA").resize(base.size)
+    composited = Image.alpha_composite(base, overlay)
+    composited.save(output_path)
+    return output_path
